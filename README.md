@@ -4,39 +4,6 @@
 
 ### A Full-Stack Deepfake Detection Application developed FastAPI, Tensorflow, OpenCV, Next.js and Tailwind CSS
 
-## To run this project locally:
-#### Pre requisites: Python(>=3.10), Node.js(>=18.19)
-
-* Clone this repository
-```
-git clone 
-cd deepfake-detection
-```
-* Setup python virtual environment and install dependencies
-```
-python3 -m venv ./venv
-source ./venv/bin/activate
-pip install -r requirements.txt
-```
-* Install frontend dependencies (present inside cilent directory)
-```
-cd client
-npm install
-```
-
-* Go to parent directory (where app.py is located) and run the FastAPI server using:
-```
-http://localhost:3000
-```
-Now our FastAPI server must be running on localhost:8000 (make sure that your port 8000 is free before running previous command).
-
-* Go to client directory and create another terminal (where package.json is located) and run the React App using:
-```
-npm run dev
-```
-Now our React App must be running on localhost:5173 (or on any port >5173 if it is not free).
-
-
 ## Project description
 This AI-powered deepfake recognition system detects manipulated images and videos by analyzing facial inconsistencies, unnatural movements, and pixel-level artifacts. Built with FastAPI, TensorFlow, OpenCV, and React.js, it leverages a deep CNN model to achieve high accuracy in identifying deepfakes.
 
@@ -57,41 +24,11 @@ This AI-powered deepfake recognition system detects manipulated images and video
 #Temporal Inconsistency detector
 ![diagram-export-3-27-2025-1_08_53-PM](https://github.com/user-attachments/assets/2598a340-6ce2-4a6d-8324-2f4ead1c8283)
 
+![diagram-export-3-27-2025-10_54_03-AM](https://github.com/user-attachments/assets/f699cec5-35e0-4471-ad4c-6a8819a9dd18)
+
+![Screenshot 2025-03-27 155149](https://github.com/user-attachments/assets/793366e5-2497-4046-9363-d2c56312efc0)
+
+![Screenshot 2025-03-27 155133](https://github.com/user-attachments/assets/37d4888e-ceee-476f-b0cb-a64ecf59af38)
+![Screenshot 2025-03-27 155203](https://github.com/user-attachments/assets/7109e9a2-35f0-4b77-a087-58b644ed28b2)
 
 
-
-
-
-* **Training Logs**
-<img src="client/public/logs.png"/>
-
-* **Evaluation Metrics: Accuracy, Precision, Recall**
-<img src="client/public/score1.png"/>
-<img src="client/public/score2.png"/>
-
-* **Confusion Matrix**
-    * True Positive: 602
-    * False Positive: 7
-    * False Negative: 5
-    * True Negative: 586
-    <br/>
-    <img src="client/public/confusion_matrix.png" style="height:300px; width:300px; display:block margin-bottom:100px;"/>
-
-
-* **ROC-AUC curve**
-<img src="client/public/ROC.png"/>
-
-
-## Post-Training Pipeline
-<img src="client/public/pipeline.png"/>
-
-## Application Architecture (Client-Server)
-<img src="client/public/application_architecture.png">
-
-
-## Screenshots
-<img src="client/public/df1.png"/>
-<img src="client/public/df2.png"/>
-<img src="client/public/df3.png"/>
-<img src="client/public/df5.png"/>
-<img src="client/public/df4.png"/>
