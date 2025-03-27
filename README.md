@@ -55,7 +55,7 @@ This AI-powered deepfake recognition system detects manipulated images and video
 
 ## Architecture Diagram
 #CNN + Vision Transformer Hybrid
-<img src="[client/public/logs.png](https://postimg.cc/c6k36vPJ)"/>
+<img src="https://postimg.cc/c6k36vPJ"/>
 
 * **Training Logs**
 <img src="client/public/logs.png"/>
