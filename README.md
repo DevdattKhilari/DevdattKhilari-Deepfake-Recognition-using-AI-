@@ -2,14 +2,14 @@
 
 # Deepfake Detection
 
-### A Full-Stack Deepfake Detection Application developed FastAPI, Tensorflow, OpenCV, React.js and Tailwind CSS
+### A Full-Stack Deepfake Detection Application developed FastAPI, Tensorflow, OpenCV, Next.js and Tailwind CSS
 
 ## To run this project locally:
 #### Pre requisites: Python(>=3.10), Node.js(>=18.19)
 
 * Clone this repository
 ```
-git clone https://github.com/harshpx/deepfake-detection.git
+git clone 
 cd deepfake-detection
 ```
 * Setup python virtual environment and install dependencies
@@ -38,16 +38,17 @@ Now our React App must be running on localhost:5173 (or on any port >5173 if it 
 
 
 ## Project description
-The main model is a **10 Layer Deep CNN Architecture**, which is optimized for effective image processing and classification, and specifically adapted to the deepfake detection task.
+This AI-powered deepfake recognition system detects manipulated images and videos by analyzing facial inconsistencies, unnatural movements, and pixel-level artifacts. Built with FastAPI, TensorFlow, OpenCV, and React.js, it leverages a deep CNN model to achieve high accuracy in identifying deepfakes.
 
-### Model Structure
-* With more than 653k parameters and dropout as the only regularization method, the model was quite straightforward.
-* The dropout rate in dense layers is set at 0.5, preventing overfitting by forcing neurons to learn independently. 50% of neurons in each batch or training example are randomly removed, creating a new neural network for each batch, and the average prediction is obtained.
-* The initial few Convolution layers had a kernel size of 5 and 64 filters, followed by max-pooling, unlike later layers with fewer filters and a dilation rate of 2.
-* The benefit of dilated convolutions is obvious: they produce a bigger field of reception. The dilation rate was maintained at its standard level. You'll see that our network is only dilated in the final three layers.
-* We use a binary classification model, and the output is based on sigmoid activation.
-* Input image size used is [224,224,3].
-* The training accuracy achieved was <99.9% and the validation accuracy too achieved was <99% (Extremely accurate).
+   ### Model Structure
+   * The deepfake detection model is a 10-layer Convolutional Neural Network (CNN) optimized for image and video classification.
+   * It consists of 653k+ parameters with dropout regularization (0.5) to prevent overfitting by ensuring independent learning among neurons.
+   * Initial convolution layers use a kernel size of 5 with 64 filters, followed by max-pooling, while later layers have fewer filters and a dilation rate of 2 to expand the receptive field.
+   * Dilated convolutions are applied in the final three layers, enhancing feature extraction for detecting subtle deepfake artifacts..
+   *The model performs binary classification with sigmoid activation to distinguish real from fake media.
+   * The input image size is [224,224,3], ensuring optimal feature extraction.
+   * The model achieves >99.9% training accuracy and >99% validation accuracy, demonstrating high effectiveness in detecting deepfakes.
+
 
 <img src="client/public/model_structure.png"/>
 
