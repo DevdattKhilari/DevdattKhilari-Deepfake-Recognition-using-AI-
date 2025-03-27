@@ -26,7 +26,7 @@ npm install
 
 * Go to parent directory (where app.py is located) and run the FastAPI server using:
 ```
-uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+http://localhost:3000
 ```
 Now our FastAPI server must be running on localhost:8000 (make sure that your port 8000 is free before running previous command).
 
@@ -50,7 +50,7 @@ This AI-powered deepfake recognition system detects manipulated images and video
    * The model achieves >99.9% training accuracy and >99% validation accuracy, demonstrating high effectiveness in detecting deepfakes.
 
 
-<img src="client/public/model_structure.png"/>
+<img src="https://app.eraser.io/workspace/zWPDf4wt4HHG3pNzJBK1?origin=share&elements=xJJdKQZ-t_CJrNgqshkDCA"/>
 
 
 ## Architecture Diagram
