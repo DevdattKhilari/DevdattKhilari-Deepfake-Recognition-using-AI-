@@ -55,7 +55,7 @@ This AI-powered deepfake recognition system detects manipulated images and video
 ![diagram-export-3-27-2025-1_07_05-PM](https://github.com/user-attachments/assets/d1f0d0c7-db94-48be-b6fa-cd9d03d49b6c)
 
 #Temporal Inconsistency detector
-"C:\Users\Rushiiiiii\Downloads\img2\diagram-export-3-27-2025-1_08_53-PM.png"
+![diagram-export-3-27-2025-1_08_53-PM](https://github.com/user-attachments/assets/2598a340-6ce2-4a6d-8324-2f4ead1c8283)
 
 
 
