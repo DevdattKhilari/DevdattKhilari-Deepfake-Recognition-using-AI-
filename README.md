@@ -1,6 +1,6 @@
-# DevdattKhilari-Deepfake-Recognition-using-AI-
+# Deepfake-Recognition-using-AI-
 
-# Deepfake Detection
+
 
 ### A Full-Stack Deepfake Detection Application developed FastAPI, Tensorflow, OpenCV, Next.js and Tailwind CSS
 
