@@ -49,8 +49,9 @@ This AI-powered deepfake recognition system detects manipulated images and video
    * The input image size is [224,224,3], ensuring optimal feature extraction.
    * The model achieves >99.9% training accuracy and >99% validation accuracy, demonstrating high effectiveness in detecting deepfakes.
 
+![diagram-export-3-27-2025-1_07_05-PM](https://github.com/user-attachments/assets/d1f0d0c7-db94-48be-b6fa-cd9d03d49b6c)
 
-<img src="https://app.eraser.io/workspace/zWPDf4wt4HHG3pNzJBK1?origin=share&elements=xJJdKQZ-t_CJrNgqshkDCA"/>
+
 
 
 ## Architecture Diagram
