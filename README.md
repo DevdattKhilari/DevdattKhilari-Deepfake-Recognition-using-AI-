@@ -1,7 +1,7 @@
 # Deepfake-Recognition-using-AI-
 
 
-
+Project Link - deepfake-detection-using-ai-ml-hash-it-out-2025-vvz4-hn7lh15no.vercel.app
 ### A Full-Stack Deepfake Detection Application developed FastAPI, Tensorflow, OpenCV, Next.js and Tailwind CSS
 
 ## Project description
